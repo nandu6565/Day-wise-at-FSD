@@ -1,0 +1,70 @@
+#container{
+    color:red;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-left: 200px;
+    width:100%;
+}
+ul li {
+    color:white
+}
+
+ul li:hover{
+    color:black;
+}
+.navbar{
+    display: flex;
+   background-color: #89baf3;
+}
+
+.navbar-left{
+    display: flex;
+    padding:20px;
+}
+
+.navbar-left-text{
+    line-height: 5px;
+    padding-left:5px;
+}
+
+
+.navbar-left img{
+    height:90px;
+}
+
+.homeImage{
+    background-image: url('homePage.png');
+    height:80vh;
+    width:100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.contactInfo{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+
+
+.parent{
+    position:relative;
+    left:0;
+    bottom: 0;
+    border:2px solid red;
+    height:200px;
+    width:400px;
+}
+
+.child{
+    position: absolute;
+    border:2px solid blue;
+    height:100px;
+    width:200px;
+    right:0;
+    bottom:0;
+}

@@ -1,0 +1,83 @@
+/* Animation */
+
+/* .circle{
+    height:200px;
+    width:200px;
+    position: absolute;
+    background-color: red;
+    border-radius: 50%;
+    animation-name:example;
+    animation-duration: 8s;
+    animation-delay: 2s;
+    animation-iteration-count: 4;
+} */
+
+/* @keyframes example{
+    0%{
+        background-color: blue;
+        position: absolute;
+        right:0;
+        
+    }
+    25%{
+        background-color:yellow;
+        position: absolute;
+        bottom:0;
+        right:0;
+        transform: scale(1.5);
+    }
+    50%{
+        background-color: blue;
+        position: absolute;
+        bottom:0;
+        left:0;
+        transform: scale(0.5);
+    }
+    100%{
+        background-color:yellow;
+        left:0;
+        top:0;
+    }
+} */
+
+/* Transition */
+
+ .rect{
+    height:200px;
+    width:200px;
+    background-color: red;
+    margin:10px;
+    /* transition: width 3s, height 3s, border-radius 3s, background-color 3s; */
+}
+
+/*
+.rect:hover{
+    width:500px;
+    height: 500px;
+    border-radius:50%;
+    background-color: yellow;
+} */
+
+.resp{
+    display: flex;
+}
+
+@media screen and (max-width:480px){
+    h1{
+        color:red;
+    }
+    .resp{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:640px){
+    .resp{
+        flex-direction: column;
+
+    }
+
+    .rect{
+        background-color: green;
+    }
+}
