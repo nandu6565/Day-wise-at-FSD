@@ -1,0 +1,27 @@
+.coin-container,.filtered-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.filter-fields{
+    text-align: center;
+    margin:1rem;
+}
+.card{
+    border:2px solid rgb(63, 47, 47);
+    width:16rem;
+    padding:10px;
+    margin-bottom: 10px;
+}
+.tag{
+    display: flex;
+    background-color: blueviolet;
+    padding: 0.3rem;
+    color:white;
+    border-radius: 0.8rem;
+}
+
+.hide{
+    display: none;
+}
